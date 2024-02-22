@@ -296,3 +296,111 @@
 // }
 
 // getData(person)
+
+// 9.Write a function that takes a string as input and returns the string in all uppercase letters.
+
+// const stringToUpperCase = (str) => {
+//   return str.toUpperCase()
+// }
+// console.log(stringToUpperCase("hello"))
+
+// 10. Write a function that takes two strings as input and concatenates them together.
+
+// const concatenateStrings = (str1 , str2) => {
+//    return str1 + str2
+// }
+
+// console.log(concatenateStrings("hello" , "world"))
+
+
+
+// 11.Write a function that takes an array and returns the last element in the array.
+
+// const lastElement = (arr) => {
+//    return arr[arr.length - 1]
+// }
+
+// console.log(lastElement([1, 2, 3, 4, 5]))
+
+
+// 12.Write a function that takes an array and returns the first element of the array.
+
+
+// const firstElement = (arr) => {
+//   return arr[0]
+// }
+
+// console.log(firstElement([1, 2, 3, 4, 5]))
+
+
+// 13.Write a function that takes an array and a number and returns the sum of first element and the number.
+//   const sumFirstAndLast = (arr , num) => {
+//     return arr[0] + num
+//   }
+
+//   console.log(sumFirstAndLast([1, 2, 3], 5))
+
+
+//   14.Write a function that takes an array and returns the sum of first and last element.
+//   const sumFirstAndLast = (arr) => {
+//     return arr[0] + arr[arr.length -1]
+//   }
+
+//   console.log(sumFirstAndLast([1, 2, 3, 4, 8]))
+
+
+// 15.Write a function that takes an object representing a person's information (name, age, occupation) 
+// and returns a template literal that includes the person's name and age in a sentence.
+
+// const person1 = { name: 'John', age: 25, occupation: 'Software Engineer'}
+// const person2 = { name: 'Jane', age: 45, occupation: 'Data Analyst' }
+
+
+// const personInfo = ({name , age}) => {
+//    return `${name} is ${age} old`
+// }
+
+// console.log(personInfo(person1))
+// console.log(personInfo(person2))
+
+
+
+
+
+//  ----------------------------   ES6 Set 3 ---------------------------------
+
+// 1. Create a function that takes an array of strings as an argument and returns a string that includes the number of items in the array and the first and last items.
+// const items = ['apple', 'banana', 'orange']
+
+// const formatArray = (items) => {
+//   const noOfItems = items.length
+//   const firstItem = items[0]
+//   const lastItem = items[items.length - 1]
+//   console.log(`The array has ${noOfItems} and the first item is ${firstItem}, and the last item is ${lastItem}`)
+// }
+
+// const message = formatArray(items)
+// console.log(message)
+
+
+// 2.Create a function that takes a product object as an argument and returns a string that includes the product name, price, 
+// and a message based on whether it is in stock or not.
+
+// const product = {  name: 'Socks',  price: 249,  inStock: true}
+
+
+// const formatProduct = ({name , price }) => {
+//    console.log(`${name} costs INR ${price} and is in stocks`)
+// }
+
+// const message = formatProduct(product)
+// console.log(message)
+
+
+// 3. Write a function findPerson that takes an array of person objects and a name as parameters and returns the object with the matching name, or null if not found.
+
+
+const person =[{name : "Amay" , age : 25} , {name : "Akhil" , age : 25}] 
+const findPerson = (person , name) => {
+  
+}
