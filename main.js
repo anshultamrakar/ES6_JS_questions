@@ -1,0 +1,298 @@
+//  ES6 Practice set 1
+
+// 1.Write a function that takes a user's age and determines if they are old enough to vote (age 18 or older).
+
+// const isEligibleToVote = (age) => {
+//   if(age >= 18){
+//   return "Eligible to vote"
+//   }else{
+//     return "Not Eligible to vote"
+//   }
+
+// }
+
+// console.log(isEligibleToVote(15))
+
+
+//2. Write a function that takes two numbers as input and determines which one is greater.
+//  function isGreater(num1 , num2){
+//     if(num1 > num2){
+//         return `${num1} is a greater number`
+//     }else{
+//         return `${num2} is a greater number`
+//     }
+//  }
+
+
+//  console.log(isGreater(5,10))
+//  console.log(isGreater(10 , 20))
+
+
+// 3.Write a function that takes a number as input and determines if it is positive or negative.
+//   function checkNum(num){
+//     if(num > 0){
+//         return `${num} is a positive number`
+//     }else{
+//         return `${num} is a negative number`
+//     }
+//   }
+
+//   console.log(checkNum(10))
+//   console.log(checkNum(-12))
+
+
+// 4. Write a function that takes a number as input and determines if it is even or odd.
+//    function isEvenOdd(num){
+//     if(num % 2 === 0){
+//         return `${num} is even number`
+//     }else{
+//         return `${num} is a odd number`
+//     }
+//    }
+
+//    console.log(isEvenOdd(46))
+//    console.log(isEvenOdd(15))
+
+
+
+// 5.Write a function that takes a string as input and determines if it contains the letter 'a' or ‘A’
+//  function checkForAlphabetA(str){
+//      for(let i = 0 ; i < str.length ; i++){
+//         if(str[i] === 'a' || str[i] === "A"){
+//             return  true
+//         }else{
+//             return false
+//         }
+//      }
+//  }
+
+//  console.log(checkForAlphabetA("anshul"))
+//  console.log(checkForAlphabetA("pinku"))
+
+
+// .6 Write a function that takes a string as input and determines if it is longer than 5 characters.
+    //  function checkLength(str){
+    //     if(str.length > 5){
+    //         return "Longer than 5 character"
+    //     }else{
+    //         return "Not longer than 5 character"
+    //     }
+    //  }
+
+    //  console.log(checkLength("Anshul"))
+    //  console.log(checkLength("Jane"))
+
+
+
+    
+// 7. Write a function that takes a number as input and determines if it is between 1 and 10.
+    // function isBetweenOneAndTen(num){
+    //    if(num > 1 && num < 10){
+    //     return true
+    //    }else{
+    //     return false
+    //    }
+    // }
+
+    // console.log(isBetweenOneAndTen(5))
+    // console.log(isBetweenOneAndTen(11))
+
+
+
+
+// 8. Write a function that takes a string as input and determines if it contains the word "hello".
+ 
+
+//     *`// Your ES6 code here* console.log(isHelloPresent('Hello World'))` 
+    
+//     *`// true* console.log(isHelloPresent('World'))` 
+    
+//     *`// false`*
+    
+
+// 9. Write a function that takes a number as input and determines if it is a multiple of 3.
+    //   function isMultipleOfThree(num){
+    //     if(num % 3 === 0){
+    //         return true
+    //     }else{
+    //         return false
+    //     }
+    //   }
+
+    //   console.log(isMultipleOfThree(5))
+    //   console.log(isMultipleOfThree(9))
+
+
+ 
+// 10 . Write a function which takes in a number as input and returns it after multiplying by 10.
+    //  function multiplyByTen(num){
+    //    return num * 10
+    //  }
+
+    //  console.log(multiplyByTen(5))
+
+    
+    
+// 11. Console individual values of the product object using object destructuring.
+    
+    //  const product = {title: 'iPhone',  price: 5999,  description: 'The iPhone is a smartphone developed by Apple'}
+   
+    //  const {title , price , description  } = product
+    //  console.log(title)
+    //  console.log(price)
+    //  console.log(description) 
+
+    
+    
+// 12. Create an object book with properties title, author, and pages. Create a function getBookDetails that takes a book object as 
+       // a parameter and returns if the book has more than 100 pages.
+    //    const book = { title : "Almanica"  , author : "Naval" , pages : 1200}
+    //     function getBookDetails({pages}){
+    //       if(pages > 100){
+    //         return true
+    //       }else{
+    //         return false
+    //       }
+    //     }
+
+    //     console.log(getBookDetails(book))
+
+
+    
+  // 13. Create a function changeOccupation that takes an object person and a string newOccupation as parameters, and changes the occupation property 
+    // of the person object to the newOccupation. 
+  // Log the person object to the console before and after calling the function.
+      
+
+    //  const person = { name: 'Amit', age: 25, occupation: 'Software Engineer' }
+
+    //   function changeOccupation(obj , newOccupation){
+    //     return {...obj ,occupation : newOccupation }
+    //   }
+
+    //   console.log(changeOccupation(person , "Product Coordinator"))
+  
+    
+    
+// 14. Given an array numbers containing the numbers 1, 2, and 3. Use array destructuring to log each number to the console.
+    
+//   const numbers = [1, 2, 3]
+//   const [a , b , c] = numbers
+//   console.log(a)
+//   console.log(b)
+//   console.log(c)
+
+    
+// Practice set 2
+
+
+// 1.Create an object person with two properties, "name" and "age" and then updates the "age" property to a new value. Initial age should be 30.
+
+//  const person = {name: 'John',age: 30};
+//  person.age = 35
+//  console.log(person.age)
+
+// 2.Write a function that takes an object car and returns true if the car is a sports car (i.e. has a horsepower property greater than or equal to 300)
+// const car1 = {
+//     make: 'Porsche',
+//     model: '911',
+//     horsepower: 450
+//   }
+  
+//   const car2 = {
+//     make: 'Toyota',
+//     model: 'Camry',
+//     horsepower: 200
+//   }
+  
+
+//   function isSportsCar({horsepower}){
+//     if(horsepower >= 300){
+//         return true
+//     }else{
+//         return false
+//     }
+    
+//   }
+
+//   console.log(isSportsCar(car1))
+//   console.log(isSportsCar(car2))
+
+
+// 3.Write a function that takes an object person and a number num as arguments and returns true if the person's age plus num is greater than 21. Otherwise, it should return false
+
+// const person1 = { name: 'Ajay', age: 20 }
+ 
+
+// function isEligible({age} , num){
+//   if(age + num > 21){
+//     return true
+//   }else{
+//     return false
+//   }
+// }
+
+// console.log(isEligible(person1 , 1))
+// console.log(isEligible(person1 , 5))
+
+//4. Write a function that takes an object blog and returns true if the blog has more than 1000 views (i.e. has a views property greater than 1000)
+ 
+// const blog1 = {  title: 'How to Learn JavaScript',  author: 'John Doe',  views: 1430,}
+
+// const blog2 = {  title: '10 Reasons to Start a Blog',  author: 'Jane Smith',  views: 500,}
+
+
+// function getViews({views}){
+//   if(views > 1000){
+//     return true
+//   }else{
+//     return false
+//   }
+// }
+
+// console.log(getViews(blog1))
+// console.log(getViews(blog2))
+
+
+// 5.Swap the values of two variables using array destructuring
+// let a = 1 ;
+// let b = 2;
+// [a , b] = [2 , 1]
+// console.log(a)
+// console.log(b)
+
+// 6.Convert this function into ES6 with least amount of characters.
+// function add(a = 30, b = 0) {  return a + b}console.log(add(2, 3))
+
+// const add = (a , b ) => a + b
+// console.log(add(2,3))
+
+// 7.Write an ES6 function combineObjects with least amount of characters which merges two objects into one
+// const obj1 = { a: 1, b: 2 } 
+// const obj2 = { c: 3, d: 4 } 
+
+// const combinedObj = (obj1 , obj2) => {
+//     return {...obj1 , ...obj2}
+// }
+
+// console.log(combinedObj(obj1, obj2))
+
+
+// 8.Convert the function getData, into an ES6 function with last amount of characters.
+
+// function getData(person) {  
+//     const name = person.name  
+//     const address = person.address.city  
+//     console.log(name)
+//  }
+
+
+// const person = {name: 'John Doe',  address: { city: 'New York', state: 'NY'}}
+
+// const getData = ({name , address : {city , state}}) => {
+//     console.log(name)
+//     console.log(city)
+//     console.log(state)
+// }
+
+// getData(person)
