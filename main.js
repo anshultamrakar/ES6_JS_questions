@@ -267,6 +267,7 @@
 // const add = (a , b ) => a + b
 // console.log(add(2,3))
 
+
 // 7.Write an ES6 function combineObjects with least amount of characters which merges two objects into one
 // const obj1 = { a: 1, b: 2 } 
 // const obj2 = { c: 3, d: 4 } 
@@ -400,7 +401,107 @@
 // 3. Write a function findPerson that takes an array of person objects and a name as parameters and returns the object with the matching name, or null if not found.
 
 
-const person =[{name : "Amay" , age : 25} , {name : "Akhil" , age : 25}] 
-const findPerson = (person , name) => {
+// const person =[{name : "Amay" , age : 25} , {name : "Akhil" , age : 25}] 
+
+// const findPerson = (person , name) => {
   
-}
+// }
+
+
+
+// 4.Write a function that uses destructuring to extract the first two elements from an array, and returns them in an object with keys 'first' and 'second'
+
+
+// const pickFirstAndSecond = ([a , b ]) => {
+//   return {first : a , second : b}
+// }
+
+// console.log(pickFirstAndSecond(['orange', 'banana', 'apple']))
+// console.log(pickFirstAndSecond(['red', 'blue', 'green']))
+
+
+// 5. Convert the following code to ES6+ syntax with minimum number of characters.
+    
+// function startsWithA(str){  
+//     if (str.charAt(0) === 'A'){   
+//          return true  
+//         }else {    
+//             return false  
+//         }}
+
+
+// const startsWithA = (str) => str.charAt(0) === "A" ? true : false
+        
+// console.log(startsWithA('Rakshu'))
+// console.log(startWithA('Jeena'))
+
+// 6.Write an ES6 function to return only the first character of the given array.
+ 
+
+//  const printFirstCharacter = (arr) => {
+//     return arr[0]
+//  }
+
+//  console.log(printFirstCharacter([1, 2, 3, 5, 8]))
+
+// 7.Write a function to return the last 5 characters as an array from the given array.
+// const printLastFive = (arr) => {
+
+// }
+
+
+// 8.Write an ES6 function to return the second element of the given array by multiplying 20 to it.
+// const printSecondCharacter = (arr) => {
+//    return arr[1] * 20
+// }
+
+// console.log(printSecondCharacter([1, 2, 3, 5, 8]))
+
+// 9.Write an ES6 function to return the second element of the given array by adding “Hello” before it.
+
+
+// const sayHello = (arr) => "Hello"+ " " +  arr[1] 
+
+// console.log(sayHello(['Akshay', 'Sweta', 'Prerana', 'Vinay'])) 
+// console.log(sayHello(['Kanika', 'Rakesh', 'Prerana', 'Puja']))
+
+// 10. Write an ES6 function to return sum of all numbers at even indices of the given array.
+//    const arr = [1,2,3,4,9]
+//    const sumOfArray = (arr) => {
+//     let sum = 0 ;
+//      for(let i = 0 ; i < arr.length ; i++){
+//         sum = arr[i] + sum
+//      }
+//     return sum
+//  }
+
+//    console.log(sumOfArray(arr))
+
+
+// 11. Write an ES6 function to return sum of all numbers at even indices of the given array.
+
+//   const sumOfEvenIndices = (arr) => {
+//     let sum = 0 ; 
+//     for(i = 0 ; i < arr.length ; i++){
+//         if(i % 2 === 0){
+//             sum = arr[i] + sum
+//         }
+//     }
+//     return sum
+//   } 
+//   console.log(sumOfEvenIndices([12, 14, 3, 27, 15, 25]))
+
+// 12 .Write an ES6 function to return the sum of only first 2 elements of the array 
+
+//  const sumFirstTwoElements = (arr) => {
+//     let sum = 0 ;
+//        sum = arr[0] + arr[2]
+//     return sum
+//  }
+//  console.log(sumFirstTwoElements([10, 4, 3, 7, 1, 5]))
+
+
+// 13. Write an ES6 function to return the first element which is a multiple of 5 in the given array. 
+
+
+
