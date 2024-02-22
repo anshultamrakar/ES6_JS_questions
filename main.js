@@ -503,5 +503,52 @@
 
 // 13. Write an ES6 function to return the first element which is a multiple of 5 in the given array. 
 
+//   const printMultipleOfFive = (arr) => {
+//     let num = 0;
+//     for(let i = 0 ; i < arr.length ; i++){
+//         if(arr[i] % 5 === 0){
+//            num = arr[i]  
+//         }
+//     }
+//     return num;
+//   }
+
+//   console.log(printMultipleOfFive([7, 4, 10, 7, 5, 3]))
+//   console.log(printMultipleOfFive([7, 5, 10, 7, 15, 3]))
+
+
+
+// 14.Create a function which takes in the given object and returns another object only with the properties postalCode and city in it.
+
+// const userData = {  name: 'Jane Doy',  postalCode: '12134',  city: 'Germany'}
+
+// const getAddress = ({postalCode ,  city}) => {
+//   return {postalCode , city}
+// }
+
+
+// console.log(getAddress(userData))
+
+
+// 15.Create a function which takes in the given object and returns a sentence which indicates name of the person and where the person lives.
+// const userData1 = {  name: 'Gaurav',  postalCode: '12134',  country: 'Japan',}
+ 
+//  const printData = ({name , country}) =>  {
+//     return `${name} lives in a ${country}`
+//  }
+
+// console.log(printData(userData1))
+
+
+// 16.Create a function which takes a product object and returns a sentence about the product using ES6 features.
+// Your ES6 code here
+//  const product = { name: 'Apple MacBook Air 2020',  specification: { capacity: '256GB',    size: '13.3 Inch',  }, price: 82900}
+  
+//  const printProductDetails = ({name , specification : {size} }) => {
+//    return `${name} which is of ${size}, has a cap`
+//  }
+
+
+//  console.log(printProductDetails(product)) // Apple MacBook Air 2020 which is of 13.3 Inch, has a cap
 
 
