@@ -366,8 +366,6 @@
 
 
 
-
-
 //  ----------------------------   ES6 Set 3 ---------------------------------
 
 // 1. Create a function that takes an array of strings as an argument and returns a string that includes the number of items in the array and the first and last items.
@@ -445,10 +443,15 @@
 //  console.log(printFirstCharacter([1, 2, 3, 5, 8]))
 
 // 7.Write a function to return the last 5 characters as an array from the given array.
-// const printLastFive = (arr) => {
 
-// }
-
+  //   const printLastFive = (arr) => {
+  //       let newArr = [];
+  //       for(let i = arr.length - 5 ; i < arr.length ; i++ ){
+  //         newArr.push(arr[i])
+  //       }
+  //       return newArr ;
+  //   }
+  // console.log(printLastFive([0, 1, 1, 2, 3, 5, 8]))
 
 // 8.Write an ES6 function to return the second element of the given array by multiplying 20 to it.
 // const printSecondCharacter = (arr) => {
@@ -459,9 +462,7 @@
 
 // 9.Write an ES6 function to return the second element of the given array by adding “Hello” before it.
 
-
 // const sayHello = (arr) => "Hello"+ " " +  arr[1] 
-
 // console.log(sayHello(['Akshay', 'Sweta', 'Prerana', 'Vinay'])) 
 // console.log(sayHello(['Kanika', 'Rakesh', 'Prerana', 'Puja']))
 
@@ -551,4 +552,37 @@
 
 //  console.log(printProductDetails(product)) // Apple MacBook Air 2020 which is of 13.3 Inch, has a cap
 
+
+
+
+
+//  ------------------------------------------- ES6 set 4 --------------------------------------------------------------
+
+// Write an ES6 function that accepts an array of integers and returns the maximum element in the array. Avoid using in-built methods.
+
+//  let array = [4, 78, 8, 3, 6, 0, 12, 34]
+  
+//  const getMaxElement = (arr) => {
+//    let maxEle = arr[0]
+//    for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i] > maxEle){
+//       maxEle = arr[i]
+//     }
+//    }
+//    return maxEle
+//  }
+
+//  console.log(getMaxElement(array))
+
+// Write an ES6 function that takes an array of numbers and returns the average of all the numbers. Avoid using in-built methods.
+
+// const calculateAverage = (arr) => {
+//    let sum = 0
+//    for(let i = 0 ; i < arr.length ; i++){
+//     sum = arr[i] + sum
+//    }
+//    return sum/arr.length
+// }
+
+// console.log(calculateAverage([1, 2, 3, 4, 5]))
 
