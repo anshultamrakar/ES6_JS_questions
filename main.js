@@ -528,6 +528,7 @@
 // }
 
 
+
 // console.log(getAddress(userData))
 
 
@@ -662,8 +663,20 @@
   // console.log(podAndTeamAllocation({ firstName: 'John', lastName: 'Dee' }))
 
 
-  // Write an ES6 function which checks if a student already has a team. If team is not given then add them to team “A” and return the object else do nothing and return the same object.
+  // Write an ES6 function which checks if a student already has a team. 
+  // If team is not given then add them to team “A” and return the object else do nothing and return the same object.
   //  Avoid using in-built methods.
+
+  // const checkForTeams = (arr) => {
+  //   if("teams" in arr){
+  //     return arr
+  //   }else{
+  //     return {...arr , teams : "A"}
+  //   }
+  // }
+
+  // console.log(checkForTeams({ firstName: 'Penn', lastName: 'Ma' }))
+  // console.log(checkForTeams({ firstName: 'John', lastName: 'Dee', team: B }))
 
 
 
@@ -683,9 +696,26 @@
 
   // Destructure the following code to get the desired outputs. Avoid using in-built methods
 
+  // const book = { title: 'JavaScript: The Definitive Guide',  authors: [{ name: 'David Flanagan', age: 49 },    { name: 'Yukihiro Matsumoto', age: 57 },  ],  publisher: { name: "O'Reilly Media", location: 'CA' },}// Your ES6 code hereconsole.log(title) 
+
+  // const { title , authors , publisher : {name, location}} = book
   
+
+  // console.log(title)
+  // console.log(authors)
+  // console.log(publisher)
+
+  // JavaScript: The Definitive Guideconsole.log(author1) 
+  // David Flanaganconsole.log(author2) 
+  // Yukihiro Matsumotoconsole.log(publisherName) 
+  // O'Reilly Media
 
   // Your ES6 code here console.log(title) 
   // JavaScript: The Definitive Guide console.log(author1) 
   // David Flanaganconsole.log(author2) 
   // Yukihiro Matsumoto console.log(publisherName) 
+
+
+
+
+
