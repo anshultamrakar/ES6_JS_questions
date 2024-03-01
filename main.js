@@ -716,6 +716,177 @@
   // Yukihiro Matsumoto console.log(publisherName) 
 
 
+  // --------------- Async and Await -------------------------------------------
+
+  // 1. Write a function ‘delayedGreeting’ that consoles a greeting message after a delay of 2 seconds using setTimeout. You can practice this question in any JS editor or your browser console.
+    
+  // *`// Your Code here*delayedGreeting();*// Hello, welcome to my portfolio!*`
+  // const delayedGreeting = () => {
+  //   setTimeout(() => {
+  //    console.log("Hello, Welcome to my Portfolio")
+  //   },2000)
+  // }
+
+  // delayedGreeting()
+
+
+  // Write a function ‘delayedAddition’ that takes in two numbers and consoles their sum after a delay of 4 seconds using setTimeout. 
+  // You can practice this question in any JS editor or your browser console.
+
+  // const delayedAddition = (num1 , num2) => {
+  //   setTimeout(() => {
+  //      console.log(num1 + num2)
+  //   },4000)
+  // }
+
+  // delayedAddition(5,2)
+
+// const delayedAlert = (msg , time) => {
+//   setTimeout(() => {
+//     console.log(msg)
+//   }, time * 1000)
+// }
+
+// delayedAlert("Hello World" , 4)
+
+
+// Write a function delayedLoop that takes a number 3 and consoles a message 'Hello' three times after a delay of 1 second each, using a for-loop and setTimeout. 
+// You can practice this question in any JS editor or your browser 
+
+
+
+
+
+// Functional Practice Question Set 1
+
+
+// Write an ES6 function that takes an array of numbers and returns an array with each number incremented by 3 using the map method.
+
+// const numbers = [1, 2, 3, 4, 5]
+
+// const incrementNumbers= (arr) => {
+//    return arr.map(item => item + 3)
+// }
+
+// console.log(incrementNumbers(numbers))
+
+// Write an ES6 function that takes an array of strings and returns an array with all the strings capitalised using the map method.
+// const myArray = ['apple', 'banana', 'cherry']
+// const capitalizeArray = (arr) => {
+//  return arr.map(item => item.toUpperCase())
+// } 
+
+// console.log(capitalizeArray(myArray))
+
+
+
+
+// Write an ES6 function that takes an array of objects representing people and returns an array of their ages using the map method.
+
+// const people = [{ name: 'Ankit', age: 25 },{ name: 'Vinit', age: 24 },{ name: 'Shashi', age: 29 }]
+
+// const getAges = (arr) => {
+//   let myArr = [];
+//   arr.map(item => myArr.push(item.age))
+//   return myArr
+// }
+
+// const age = getAges(people)
+// console.log(age)
+
+
+// Write an ES6 function that takes an array of objects representing products and returns an array with the product names in all lower case letters using the map method.
+
+// const products = [{ name: 'Lip Balm', stock: 100 },{ name: 'PERFUME', stock: 400 },{ name: 'Socks', stock: 200 }]
+ 
+
+// const getProductNamesInLowerCase = (arr) => arr.map(item => {
+//    return item.name.toLowerCase()
+// })
+// console.log(getProductNamesInLowerCase(products))
+
+
+
+// Write an ES6 function that takes an array of objects representing cities and returns an array of their names using the map method.
+// const cities = [  { name: 'New York', population: 8538000 },  { name: 'Los Angeles', population: 3976000 },  { name: 'Bangalore', population: 13608000 }] 
+
+
+// const getCityNames = (arr) => {
+//     return arr.map(item => item.name)
+// }
+
+// console.log(getCityNames(cities))
+
+
+// Write an ES6 function that takes an array of strings and returns an array with only the strings that have a length greater than 5.
+
+// const fruits = ['apple', 'banana', 'cherry', 'watermelon', 'pineapple']
+
+// const filterLongStrings = (arr) => {
+//   return arr.filter(item => item.length > 5  )
+// }
+
+// console.log(filterLongStrings(fruits))
+
+
+// Write an ES6 function that takes an array of numbers and returns an array with only the numbers that are divisible by 3 and also by 5.
+
+// const numbers = [1, 2, 30, 4, 15] 
+// const isDivisibleBy3and5 = (arr) => {
+//   return arr.filter(arr => arr % 3 === 0 && arr % 5 === 0)
+// }
+
+// console.log(isDivisibleBy3and5(numbers))
+
+
+// Write an ES6 function that takes an array of objects with the properties name and age, and returns an array with only the objects that have an age greater than 30.
+// const people = [{ name: 'Rahul', age: 25 },  { name: 'Raj', age: 35 },  { name: 'Vijay', age: 45 }]
+
+// const filterByAge = (arr) => {
+//   return arr.filter(item => item.age > 30)
+// }
+
+// console.log(filterByAge(people))
+
+
+// Write an ES6 function that takes an array of objects with the properties name and score, and returns an array with only the objects that have a score greater than 80.
+
+
+// const students = [{ name: 'Aditya', score: 85 },{ name: 'Bob', score: 75 },{ name: 'Charlie', score: 90 }]
+
+
+// const filterByScore = (arr) => {
+//   return arr.filter(item => item.score > 80)
+// }
+
+
+// console.log(filterByScore(students))
+
+
+// Write an ES6 function that takes an array of objects with the properties name, 
+// age and city, and returns an array with only the objects that have a city property of "Indore" and age greater than 70.
+
+// const people = [{ name: 'Ridhima', age: 75, city: 'Indore' },  { name: 'Akshay', age: 60, city: 'Delhi' },  { name: 'Udit', age: 80, city: 'Indore' },  { name: 'Venki', age: 80, city: 'Bangalore' }]
+
+
+// const filterByCityAndAge = (arr) => {
+//    return arr.filter(item => item.city === "Indore" && item.age > 70)
+// }
+
+// console.log(filterByCityAndAge(people))
+
+
+// Write an ES6 function that takes an array of objects containing book information (title, author, genre) and returns an array with only the books of "Science Fiction".
+
+// const books = [{ title: "The Hitchhiker's Guide to the Galaxy",    author: 'Douglas Adams',    genre: 'Science Fiction'},  { title: 'To Kill a Mockingbird',    author: 'Harper Lee',    genre: 'Fiction'},{ title: '1984', author: 'George Orwell', genre: 'Science Fiction' }, { title: 'Pride and Prejudice', author: 'Jane Austen', genre: 'Romance' },]
+
+
+
+// const filterByGenre = (arr , genre) => {
+//   return arr.filter(item => item.genre === genre)
+// }
+
+// console.log(filterByGenre("book" , "Science Fiction"))
 
 
 
