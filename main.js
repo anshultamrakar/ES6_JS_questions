@@ -1192,3 +1192,59 @@
 
 // console.log(getCarModel(cars))
 
+// Write an ES6 function that takes an array of objects representing books with properties title, author and pageCount. Return the all book titles that have more than 700 pages.
+
+// const books = [  {    title: 'The Lord of the Rings',    author: 'J.R.R. Tolkien',    pageCount: 1178,  },  { title: 'To Kill a Mockingbird', author: 'Harper Lee', pageCount: 281 },  {    title: "The Hitchhiker's Guide to the Galaxy",    author: 'Douglas Adams',    pageCount: 193,  },  {    title: 'The Name of the Wind',    author: 'Patrick Rothfuss',    pageCount: 662,  }]
+
+
+// const bookWith700Pages = (arr) => {
+//    return arr.filter(item => item.pageCount > 700)
+// }
+
+
+// console.log(bookWith700Pages(books))
+
+
+// Write an ES6 function that takes an array of numbers and returns the sum of all the even numbers in the array using the reduce function
+
+// const numbers = [12, 23, 4, 2, 11, 21]
+
+
+// const sumOFNumbers = (arr) => {
+//   const initalVal = 0 
+//   return arr.reduce((acc , val) => acc + val , initalVal)
+// }
+
+// console.log(sumOFNumbers(numbers))
+
+
+// const sumEvenNumbers = (arr) => {
+//   const initalVal = 0
+//   return arr.reduce((acc, val) => val % 2 === 0 ? acc + val : acc , initalVal)
+// }
+
+// console.log(sumEvenNumbers(numbers))
+
+
+
+
+// Write an ES6 function that takes an array of objects representing students with properties name and score, and returns the average score of all the students using the reduce function.
+
+// const students = [{ name: 'John', score: 80 },  { name: 'Jane', score: 90 },  { name: 'Bob', score: 75 },  { name: 'Alice', score: 85 }]
+
+// const getAverageScore = (arr) => {
+//    const initialVal = 0;
+//    return arr.reduce((acc , {score}) => acc + score , initialVal)
+// }
+
+// console.log(getAverageScore(students))
+
+// const products = [  { name: 'Shirt', price: 20, quantity: 2 },  { name: 'Pants', price: 30, quantity: 1 },  { name: 'Shoes', price: 50, quantity: 1 },  { name: 'Hat', price: 10, quantity: 3 }]
+
+
+// const getTotalCost = (arr) => {
+//   const initalVal = 0;
+//    return arr.reduce((acc , {price , quantity}) => acc + price * quantity ,initalVal) 
+// }
+
+// console.log(getTotalCost(products))
