@@ -1238,6 +1238,9 @@
 // }
 
 // console.log(getAverageScore(students))
+// Write an ES6 function that takes an array of objects representing products with properties name, price, and quantity, and 
+// returns the total cost of all the products using the reduce function.
+
 
 // const products = [  { name: 'Shirt', price: 20, quantity: 2 },  { name: 'Pants', price: 30, quantity: 1 },  { name: 'Shoes', price: 50, quantity: 1 },  { name: 'Hat', price: 10, quantity: 3 }]
 
@@ -1248,3 +1251,34 @@
 // }
 
 // console.log(getTotalCost(products))
+
+
+
+// Write an ES6 function that takes an array of strings and returns a single string that is the concatenation of all the strings using the reduce function.
+
+
+// const strings = ['Hello', ' ', 'world', '!']
+
+
+// const concatenateStrings = (arr) => {
+//   return arr.reduce((acc , value) => acc + value)
+// }
+
+// console.log(concatenateStrings(strings))
+
+
+// Write an ES6 function that takes an array of numbers and returns the minimum number using the reduce function.
+
+// const numbers = [10, 5, 8, 3, 6  ]
+
+// const getMinimumNumber = (arr) => {
+//   const initialVal = arr[0]
+//  return arr.reduce((acc , val) => acc < val ? acc : val , initialVal)
+// }
+
+// console.log(getMinimumNumber(numbers))
+
+
+
+
+// FP Programming set 4  (Reduce , Filter and map, Find) 
