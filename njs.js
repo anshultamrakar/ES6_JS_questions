@@ -43,16 +43,17 @@
 
 // Fixing the above issue with var only 
 
-function x(){
-    for(var i = 1 ; i <= 5 ; i++){
-        function c(x){
-          setTimeout(function(){
-           console.log(x)
-          }, x*1000)
-        }
-    }
-  c(i)
+// function x(){
+//     for(var i = 1 ; i <= 5 ; i++){
+//         function c(x){
+//           setTimeout(function(){
+//            console.log(x)
+//           }, x*1000)
+//         }
+//     }
+//   c(i)
 
-  console.log("hello")
-}
-x()
+//   console.log("hello")
+// }
+// x()
+

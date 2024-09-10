@@ -1285,3 +1285,52 @@
 
 
 // FP Programming set 4  (Reduce , Filter and map, Find) 
+//  const strings = ['apple', 'banana', 'cherry', 'date', 'blueberry']
+
+//  const calculateLength = (str) => {
+//    return  str.reduce((acc , val) => acc + val.length , 0)
+  
+//  }
+//  console.log(calculateLength(strings))
+
+
+// const numbers = [1, 2, 3, 4, 5]
+
+// const squareSum = (num) => {
+//   return num.reduce((acc , value) =>  acc  + value * value , 0)
+// } 
+
+// console.log(squareSum(numbers))
+
+
+// const items = [
+//   {
+//     name: "Item 1",
+//     price: 10,
+//   },
+//   {
+//     name: "Item 2",
+//     price: 20,
+//   },
+//   {
+//     name: "Item 3",
+//     price: 30,
+//   },
+// ];
+
+// const Calvalue = (items) => {
+//   return items.reduce((acc , value) => acc + value.price , 0 )
+// }
+
+// console.log(Calvalue(items))
+
+// const string = ['this', 'is', 'fun']
+
+// const concatString = (str) => {
+//   return str.reduce((acc , val) =>  acc + val)
+// } 
+
+
+// console.log(concatString(string))
+
+
